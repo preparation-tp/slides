@@ -19,4 +19,6 @@ cargo run
 ## Contributions
 
 - [Christian HUMBERT (Chrstn67)](https://github.com/Chrstn67)
-  - Oral d'examen des soutenance DWWM _(millésime 4, 2023)_
+  - Préparation à l'oral d'examen des soutenance DWWM _(millésime 4, 2023)_
+- [Gauthier DANIELS (GauthierWebDev)](https://github.com/GauthierWebDev)
+  - Exemples de questions techniques pour l'oral d'examen des soutenance DWWM _(millésime 4, 2023)_
