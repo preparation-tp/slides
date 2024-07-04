@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Préparation TP - Slides</title>
+  </head>
+  <body>
+    <h1>Préparation TP</h1>
+
+    <p>
+      Bienvenue sur la page d'accueil des slides de la préparation TP. Vous
+      trouverez ci-dessous la liste des slides disponibles.
+    </p>
+
+    <ul>
+      {% for slide in slides %}
+      <li>
+        <a href="/{{ slide }}">{{ slide }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

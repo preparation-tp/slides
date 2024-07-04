@@ -1,0 +1,37 @@
+@import "./reveal/reset.css";
+@import "./reveal/reveal.css";
+@import "./reveal/theme/league.css";
+@import "./reveal/plugins/highlight/monokai.css";
+
+.bold {
+  font-weight: 600;
+}
+
+.text-primary {
+  color: #00ff80;
+}
+
+.text-secondary {
+  color: #ffb67f;
+}
+
+.text-tertiary {
+  color: #00e1ff;
+}
+
+.text-fof {
+  color: #f0f;
+}
+
+.neutral-li {
+  list-style-type: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.my-2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

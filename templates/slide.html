@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ slide_name }} | Préparation TP - Slides</title>
+    <link rel="stylesheet" href="/assets/app.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/reveal.css" />
+    <link rel="stylesheet" href="/assets/css/theme/league.css" />
+    <link rel="stylesheet" href="/assets/plugins/highlight/monokai.css" /> -->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">{{ slide_content | safe }}</div>
+    </div>
+
+    <script src="/assets/app.mjs" type="module"></script>
+  </body>
+</html>
